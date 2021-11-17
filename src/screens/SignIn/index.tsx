@@ -24,7 +24,7 @@ export function SignIn() {
                     favoritos com seus amigos
                 </Text>
 
-                <ButtonIcon />
+                <ButtonIcon title="Entrar com Discord" />
             </View>
 
         </View>
