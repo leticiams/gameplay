@@ -12,13 +12,15 @@ export function Profile() {
             <Avatar urlImage="https://github.com/leticiams.png" />
 
             <View>
-                <Text style={styles.greeting}>
-                    Olá,
-                </Text>
+                <View style={styles.user}>
+                    <Text style={styles.greeting}>
+                        Olá,
+                    </Text>
 
-                <Text style={styles.username}>
-                    Letícia
-                </Text>
+                    <Text style={styles.username}>
+                        Letícia
+                    </Text>
+                </View>
 
                 <Text style={styles.message}>
                     Hoje é dia de vitória!
