@@ -27,6 +27,10 @@ export function Home() {
                       setCategory={handleCategorySelect}
                     />
                 </View>
+
+                <View style={styles.content}>
+
+                </View>
         </View>
     );
 }
