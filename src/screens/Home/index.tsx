@@ -51,12 +51,10 @@ export function Home() {
                 <ButtonAdd />
             </View>
                 
-            <View>
                 <CategorySelect 
                     categorySelected={category} 
                     setCategory={handleCategorySelect}
                 />
-            </View>
 
             <View style={styles.content}>
                 <ListHeader 
