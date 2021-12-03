@@ -5,7 +5,7 @@ import { Feather } from '@expo/vector-icons';
 
 import { Text, View } from 'react-native';
 import { theme } from '../../global/styles/theme';
-import { styles } from './style';
+import { styles } from './styles';
 import { useNavigation } from '@react-navigation/native';
 
 type Props = {
