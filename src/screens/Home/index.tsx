@@ -10,6 +10,7 @@ import { ListHeader  } from '../../components/ListHeader';
 import { Background } from '../../components/Background';
 import { Appointment } from '../../components/Appointments';
 import { AppointmentDetails } from '../AppointmentDetails';
+import { AppointmentCreate } from '../AppointmentCreate';
 
 import { styles } from './styles';
 
@@ -53,11 +54,15 @@ export function Home() {
         navigation.navigate('AppointmentDetails');
     }
 
+    function handleAppointmentCreate() {
+        navigation.navigate('AppointmentCreate');
+    }
+
     return (
         <Background>
             <View style={styles.header}>
                 <Profile />
-                <ButtonAdd />
+                <ButtonAdd onPress={handleAppointmentCreate}/>
             </View>
                 
                 <CategorySelect 
