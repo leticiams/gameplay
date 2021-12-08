@@ -23,30 +23,6 @@ export function Guilds({ handleGuildSelect } : Props) {
             name: 'Lolzinho',
             icon: 'image.png',
             owner: true
-        },
-        {
-            id: '3',
-            name: 'Lolzinho',
-            icon: 'image.png',
-            owner: true
-        },
-        {
-            id: '4',
-            name: 'Lolzinho',
-            icon: 'image.png',
-            owner: true
-        },
-        {
-            id: '5',
-            name: 'Lolzinho',
-            icon: 'image.png',
-            owner: true
-        },
-        {
-            id: '6',
-            name: 'Lolzinho',
-            icon: 'image.png',
-            owner: true
         }
     ]
 
